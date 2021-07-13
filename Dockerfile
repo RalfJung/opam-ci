@@ -6,6 +6,7 @@ COPY apt/ /etc/apt/
 # gmp: needed by Coq
 # python: needed by z3 (for RefinedC)
 # mpfr: needed by Cerberus (for RefinedC)
+# pkg-config: needed by a conf-mpfr (related to the used of mpfr by Cerberus)
 RUN apt update -y && apt install -y pkg-config git rsync tar unzip m4 time curl linux-perf strace ocaml build-essential bubblewrap gawk libgmp-dev python2.7 python3 libmpfr-dev
 
 # opam installation
