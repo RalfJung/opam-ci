@@ -1,4 +1,4 @@
-# Deep distro in sync with CI builder! We run perf inside the container, needs to work with host kernel.
+# Keep distro in sync with CI builder! We run perf inside the container, needs to work with host kernel.
 FROM debian:buster
 
 # apt package installation
